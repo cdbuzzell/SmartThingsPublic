@@ -166,6 +166,7 @@ metadata {
             state "z6off", label: '6', action: "z6on", icon: "st.valves.water.closed", backgroundColor: "#ffffff"
             state "z6on", label: '6', action: "z6off", icon: "st.valves.water.open", backgroundColor: "#46c2e8"
 		}
+	/*
         standardTile("switch7", "device.switch7", inactiveLabel: false) {            
             state "z7off", label: '7', action: "z7on", icon: "st.valves.water.closed", backgroundColor: "#ffffff"
             state "z7on", label: '7', action: "z7off", icon: "st.valves.water.open", backgroundColor: "#46c2e8"
@@ -206,6 +207,7 @@ metadata {
             state "z16off", label: '16', action: "z16on", icon: "st.valves.water.closed", backgroundColor: "#ffffff"
             state "z16on", label: '16', action: "z16off", icon: "st.valves.water.open", backgroundColor: "#46c2e8"
 		}        
+	*/
         standardTile("refresh", "device.switch", inactiveLabel: false, decoration: "flat") {
 			state "default", action: "refresh", icon:"st.secondary.refresh"            
 		}
